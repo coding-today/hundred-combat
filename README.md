@@ -1,5 +1,7 @@
 # hundred-combat
 Golang进阶实战100题
+## 🚀 About Me
+ I am a python engineer working in shanghai
 ### 1.交替打印字母和数字
 ---
 问题描述
@@ -294,7 +296,7 @@ func main() {
   fmt.Println(ret)
 }
 ```
-##### 依据4个goroutine的启动后执行效率，很可能打印111func4，但其他的111func*也可能先执行，exec只会返回一 条信息。
+#####  依据4个goroutine的启动后执行效率，很可能打印111func4，但其他的111func*也可能先执行，exec只会返回一 条信息。
 
 ### 17 下面这段代码为什么会卡死?
 ***
@@ -434,3 +436,15 @@ if oldnext == 0 {
   gp = oldnext.ptr()
 }
 ```
+
+
+
+
+
+## Authors
+
+- [@coding-today](https://github.com/coding-today/)
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
