@@ -328,6 +328,7 @@ go func() {
 + Channel 阻塞 
 + system call 
 + 运行较⻓时间
+
 如果一个 goroutine 执行时间太⻓，scheduler 会在其 G 对象上打上一个标志( preempt)，当这个 goroutine 内部发生函数调用的时候，会先主动检查这个标志，如果为 true 则会让出执行权。
 main 函数里启动的 goroutine 其实是一个没有 IO 阻塞、没有 Channel 阻塞、没有 system call、没有函数调用的 死循环。
 也就是，它无法主动让出自己的执行权，即使已经执行很⻓时间，scheduler 已经标志了 preempt。
