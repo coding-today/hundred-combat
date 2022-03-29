@@ -1,7 +1,7 @@
 # hundred-combat
 Golang进阶实战100题
 ## 🚀 About Me
- I am a python engineer working in shanghai
+ I am a python engineer working in shanghai.
 ### 1.交替打印字母和数字
 ---
 问题描述
